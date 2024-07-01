@@ -1,0 +1,147 @@
+.container {
+    border: black 3px solid;
+    border-radius: 10px;
+    width: relative;
+    height: relative;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+
+.divimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 35px;
+    color: rgb(75, 74, 74);
+}
+
+.pages {
+    border: 2px solid #7600a9;
+    background-color:  #c9add6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.clientes {
+    display: grid;
+    grid-template: 
+        'cliente1 img1'
+        '. .'
+        'img3 cliente3'
+        '. .'
+        'cliente2 img2';
+}
+
+.cliente1 {
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    grid-area: cliente1;
+    background-color: #c9add6;
+}
+
+.cliente1 > h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #7600a9;
+}
+
+.cliente1 > h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.img1 {
+    margin: 50px;
+    grid-area: img1;
+    border: white 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cliente2 {
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    grid-area: cliente2;
+    background-color: #c9add6;
+}
+
+.cliente2 > h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #7600a9;
+}
+
+.img2 {
+    margin: 50px;
+    grid-area: img2;
+    border: white 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cliente2 >h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.cliente3 {
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    grid-area: cliente3;
+    background-color: #c9add6;
+}
+
+.cliente3 > h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #7600a9;
+}
+
+.cliente3 >h3 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.img3 {
+    margin: 50px;
+    grid-area: img3;
+    border: white 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 60px;
+    height: 23px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.barra{
+    background-color: #c9add6;
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
